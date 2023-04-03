@@ -1,0 +1,29 @@
+.timerSector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 1.3vw;
+}
+
+.value{
+    font-size: 3vw;
+    padding:1rem 1rem;
+    font-weight: 100;
+    width: 11vw;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .title{
+        font-size: 3vw;
+    }
+    .value{
+        width: 18vw;
+        font-size: 5vw;
+    }
+}
